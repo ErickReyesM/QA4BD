@@ -1,0 +1,28 @@
+{
+      
+	"name": "Miguel",
+      
+	"lastName": "Martinez",
+      
+	"bench": false,
+      
+	"user": "mmartinez",
+      
+	"location": "MDC",
+      
+	"age": null,
+      
+	"skills": ["Java", "Serenity", "PostgreSQL",
+"TestNG", "Maven", "MongoDB"],
+      
+	"profile":{
+        
+		"summary":"Skilled software engineer working as an Automation Engineer on frameworks for Web and Desktop applications. Great performer with an attitude of facing new challenges using different technologies.",
+        
+		"yoe":6,
+        
+		"title":"Senior SDET"
+      
+		}
+
+}
