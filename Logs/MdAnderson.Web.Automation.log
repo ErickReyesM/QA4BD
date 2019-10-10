@@ -1,0 +1,57 @@
+2018-12-10 14:04:14,821 [INFO] - [START] ==== Test Case: 34098 - Driver: chrome ====
+2018-12-10 14:04:21,337 [ERROR] - Link not found or without text: ui-id-2
+2018-12-10 14:04:21,778 [ERROR] -   Test Case: 34098 - Driver: chrome 
+  Expected elements and/or functionality in the Accordion panel not working as expected.
+  Expected: True
+  But was:  False
+
+2018-12-10 14:04:21,778 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 14:04:25,698 [INFO] - [START] ==== Test Case: 34109 - Driver: chrome ====
+2018-12-10 14:04:41,723 [ERROR] - Error waiting for Element To Be Invisible: By.CssSelector: #at_hover
+2018-12-10 14:04:43,917 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:04:47,754 [INFO] - [START] ==== Test Case: 34100 - Driver: chrome ====
+2018-12-10 14:05:03,104 [ERROR] - Error waiting for Element To Be Invisible: By.CssSelector: #at_hover
+2018-12-10 14:05:05,436 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:05:09,363 [INFO] - [START] ==== Test Case: 34099 - Driver: chrome ====
+2018-12-10 14:05:24,897 [ERROR] - Error waiting for Element To Be Invisible: By.CssSelector: #at_hover
+2018-12-10 14:05:24,897 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:05:28,786 [INFO] - [START] ==== Test Case: 34108 - Driver: chrome ====
+2018-12-10 14:05:41,163 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #main_0_contentpanel_2_lvSearchResults_pnlTeaser_0 > p
+2018-12-10 14:05:41,505 [ERROR] - Object reference not set to an instance of an object.
+2018-12-10 14:05:41,505 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 14:05:45,716 [INFO] - [START] ==== Test Case: 34088 - Driver: chrome ====
+2018-12-10 14:05:58,551 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:06:02,475 [INFO] - [START] ==== Test Case: 34086 - Driver: chrome ====
+2018-12-10 14:06:06,630 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:06:10,519 [INFO] - [START] ==== Test Case: 34089 - Driver: chrome ====
+2018-12-10 14:06:15,686 [ERROR] - unknown error: Element <span class="setlocale">...</span> is not clickable at point (288, 26). Other element would receive the click: <div class="fade modal-backdropd"></div>
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 14:06:15,686 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 14:06:19,563 [INFO] - [START] ==== Test Case: 34087 - Driver: chrome ====
+2018-12-10 14:06:25,500 [ERROR] - unknown error: Element <span class="setlocale">...</span> is not clickable at point (288, 26). Other element would receive the click: <div class="fade modal-backdropd"></div>
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 14:06:25,500 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 14:06:29,367 [INFO] - [START] ==== Test Case: 34094 - Driver: chrome ====
+2018-12-10 14:06:37,212 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:06:41,078 [INFO] - [START] ==== Test Case: 34095 - Driver: chrome ====
+2018-12-10 14:06:50,193 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:06:54,049 [INFO] - [START] ==== Test Case: 34093 - Driver: chrome ====
+2018-12-10 14:06:58,006 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:07:01,878 [INFO] - [START] ==== Test Case: 34096 - Driver: chrome ====
+2018-12-10 14:07:11,754 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #top_0_searchmodal_0_pnlKeyword > button
+2018-12-10 14:07:12,393 [ERROR] - element not visible
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 14:07:12,393 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 14:07:16,204 [INFO] - [START] ==== Test Case: 34102 - Driver: chrome ====
+2018-12-10 14:07:31,542 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: body > #feedback > img:nth-child(3)
+2018-12-10 14:07:31,759 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:07:35,616 [INFO] - [START] ==== Test Case: 34097 - Driver: chrome ====
+2018-12-10 14:07:51,815 [ERROR] - Error waiting for Element To Be Invisible: By.XPath: //*[@id='at_hover']
+2018-12-10 14:07:56,926 [ERROR] - Error Waiting for Element To Be Visible : By.XPath: //*[@id='main_0_innerContainer']/a/span
+2018-12-10 14:07:57,198 [ERROR] - Object reference not set to an instance of an object.
+2018-12-10 14:07:57,198 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 14:08:01,053 [INFO] - [START] ==== Test Case: 34107 - Driver: chrome ====
+2018-12-10 14:08:16,468 [INFO] - [END]   =============== [PASSED] ===============

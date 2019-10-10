@@ -1,0 +1,52 @@
+2018-10-11 15:21:42,419 [INFO] - [START] ==== Test Case: NPA_NID_C_Verify_AboutPageContent - Driver: internet explorer ====
+2018-10-11 15:21:45,571 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:21:47,899 [INFO] - [START] ==== Test Case: NPA_NID_F_Verify_ContactUsDetails - Driver: internet explorer ====
+2018-10-11 15:21:49,621 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:21:51,865 [INFO] - [START] ==== Test Case: NPA_NID_F_Verify_CopyrightDetails&Links - Driver: internet explorer ====
+2018-10-11 15:22:02,181 [ERROR] - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2018-10-11 15:22:02,186 [INFO] - [END]   =============== [FAILED] ===============
+2018-10-11 15:22:06,383 [INFO] - [START] ==== Test Case: NPA_NID_F_Verify_ForProviderLinks - Driver: internet explorer ====
+2018-10-11 15:22:18,799 [ERROR] - Error waiting for Url contains: bannerhealthnetwork.com/ | actual: https://qa.neighborhoodphysicianalliance.com/
+2018-10-11 15:22:21,079 [INFO] - [START] ==== Test Case: NPA_NID_F_Verify_GetToKnowUsLinks - Driver: internet explorer ====
+2018-10-11 15:22:28,789 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:22:31,166 [INFO] - [START] ==== Test Case: Validation of Main Paragraphs - Driver: internet explorer ====
+2018-10-11 15:22:32,814 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:22:32,814 [INFO] - [START] ==== Test Case: Validation of Star Paragraphs - Driver: internet explorer ====
+2018-10-11 15:22:33,905 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:22:33,905 [INFO] - [START] ==== Test Case: Validation of Cross Paragraphs - Driver: internet explorer ====
+2018-10-11 15:22:35,206 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:22:35,206 [INFO] - [START] ==== Test Case: Validation of Checked Paragraphs - Driver: internet explorer ====
+2018-10-11 15:22:36,499 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:22:38,762 [INFO] - [START] ==== Test Case: Carousel Precence and its Indicators Activated - Driver: internet explorer ====
+2018-10-11 15:22:44,203 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:22:46,718 [INFO] - [START] ==== Test Case: NPA_NID_C_Verify_LeadershipPageContent - Driver: internet explorer ====
+2018-10-11 15:22:49,873 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:22:52,214 [INFO] - [START] ==== Test Case: NPA_NID_C_Verify_BHNProviderPortalRedirection - Driver: internet explorer ====
+2018-10-11 15:23:00,052 [ERROR] - Error waiting for Url contains: /bannerhealthnetwork.com | actual: https://qa.neighborhoodphysicianalliance.com/
+2018-10-11 15:23:02,358 [INFO] - [START] ==== Test Case: Verify the Documents are collapsed - Driver: internet explorer ====
+2018-10-11 15:23:11,225 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:23:13,858 [INFO] - [START] ==== Test Case: Documents for Forms and Resources Displayed - Driver: internet explorer ====
+2018-10-11 15:23:19,388 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:23:21,688 [INFO] - [START] ==== Test Case: Back to home page from About page - Driver: internet explorer ====
+2018-10-11 15:23:25,381 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:23:27,960 [INFO] - [START] ==== Test Case: Redirected to About Page - Driver: internet explorer ====
+2018-10-11 15:23:30,366 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:23:32,761 [INFO] - [START] ==== Test Case: Redirected to Leadership Page - Driver: internet explorer ====
+2018-10-11 15:23:35,115 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:23:37,467 [INFO] - [START] ==== Test Case: Display For Providers Menu - Driver: internet explorer ====
+2018-10-11 15:23:45,560 [ERROR] - WaitForAttributeChangedOnAction | locator: By.CssSelector: ul.nav>li:nth-child(3) | attribute: class
+2018-10-11 15:23:45,560 [ERROR] - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BH.ATF.Sitecore.Web.Common.WebExtensions.GenericWaits.WaitForAttributeChangedOnAction(IWebDriver _driver, By locator, String attribute, Action`2 action) in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.Common\WebExtensions\GenericWaits.cs:line 64
+2018-10-11 15:23:45,563 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:23:48,008 [INFO] - [START] ==== Test Case: NPA Precence of Header elements - Driver: internet explorer ====
+2018-10-11 15:23:50,703 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:23:53,374 [INFO] - [START] ==== Test Case: NPA_NID_C_VerifyContent_BenefitsOfTheAllianceSection - Driver: internet explorer ====
+2018-10-11 15:23:58,036 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:24:00,344 [INFO] - [START] ==== Test Case: NPA_NID_C_VerifyContent_JoinTheAllianceFirstSection - Driver: internet explorer ====
+2018-10-11 15:24:10,512 [INFO] - [START] ==== Test Case: NPA_NID_C_VerifyContent_ParticipateInContractsSection - Driver: internet explorer ====
+2018-10-11 15:24:15,121 [INFO] - [END]   =============== [PASSED] ===============
+2018-10-11 15:24:17,540 [INFO] - [START] ==== Test Case: Redirected to Providers Directory page - Driver: internet explorer ====
+2018-10-11 15:24:20,741 [INFO] - [END]   =============== [PASSED] ===============

@@ -1,0 +1,585 @@
+2018-12-10 13:12:21,379 [INFO] - [START] ==== Test Case: 33987 - Driver: chrome ====
+2018-12-10 13:12:31,533 [INFO] - Feedback window not displayed: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"body > #feedback > img:nth-child(3)"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at BH.ATF.Sitecore.Web.Common.WebExtensions.Helper.ClickingWithJavaScript(IWebDriver _driver, By locator) in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.Common\WebExtensions\Helper.cs:line 68
+   at BH.ATF.Sitecore.Web.BannerHealth.Pages.PageBase.CloseFeedbackWindow() in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.BannerHealth\Pages\Base\PageBase.cs:line 405
+2018-12-10 13:12:34,858 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:12:39,681 [INFO] - [START] ==== Test Case: 33993 - Driver: chrome ====
+2018-12-10 13:12:51,836 [ERROR] - Error waiting for Url contains: bannerhealth.com/es-es/patients/billing/online-bill-pay | actual: https://hccd-qa.bannerhealth.com/patients
+2018-12-10 13:12:52,468 [ERROR] -   Test Case: 33993 - Driver: chrome 
+  Error loading Online-Bill-Pay page.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:12:52,468 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:12:56,670 [INFO] - [START] ==== Test Case: 34042 - Driver: chrome ====
+2018-12-10 13:13:25,327 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:13:29,621 [INFO] - [START] ==== Test Case: 34073 - Driver: chrome ====
+2018-12-10 13:13:40,613 [INFO] - Feedback window not displayed: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"body > #feedback > img:nth-child(3)"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at BH.ATF.Sitecore.Web.Common.WebExtensions.Helper.ClickingWithJavaScript(IWebDriver _driver, By locator) in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.Common\WebExtensions\Helper.cs:line 68
+   at BH.ATF.Sitecore.Web.BannerHealth.Pages.PageBase.CloseFeedbackWindow() in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.BannerHealth\Pages\Base\PageBase.cs:line 405
+2018-12-10 13:13:45,650 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section:nth-child(6) > div > div > div:nth-child(1)
+2018-12-10 13:13:50,686 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section:nth-child(6) > div > div > div:nth-child(3)
+2018-12-10 13:13:55,706 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section:nth-child(6) > div > div > div:nth-child(5)
+2018-12-10 13:14:00,713 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section:nth-child(6) > div > div > div:nth-child(1) > p:nth-child(5) > a
+2018-12-10 13:14:06,029 [ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"#site > div.site-content > section:nth-child(6) > div > div > div:nth-child(1) > p:nth-child(5) > a"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 13:14:06,029 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:14:10,101 [INFO] - [START] ==== Test Case: 34070 - Driver: chrome ====
+2018-12-10 13:14:20,708 [INFO] - Feedback window not displayed: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"body > #feedback > img:nth-child(3)"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at BH.ATF.Sitecore.Web.Common.WebExtensions.Helper.ClickingWithJavaScript(IWebDriver _driver, By locator) in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.Common\WebExtensions\Helper.cs:line 68
+   at BH.ATF.Sitecore.Web.BannerHealth.Pages.PageBase.CloseFeedbackWindow() in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.BannerHealth\Pages\Base\PageBase.cs:line 405
+2018-12-10 13:14:25,767 [ERROR] - Error finding element: By.CssSelector: section.full-width-section > div.global-sliders
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"section.full-width-section > div.global-sliders"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at BH.ATF.Sitecore.Web.Common.WebExtensions.GenericValidations.VerifyElementDisplayed(IWebDriver _driver, By locator, Boolean excludeExceptionLog) in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.Common\WebExtensions\GenericValidations.cs:line 35
+2018-12-10 13:14:26,095 [ERROR] -   Test Case: 34070 - Driver: chrome 
+  Expected elements were not found In Carrousel. See log for details.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:14:26,095 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:14:30,152 [INFO] - [START] ==== Test Case: 34076 - Driver: chrome ====
+2018-12-10 13:14:38,795 [INFO] - Feedback window not displayed: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"body > #feedback > img:nth-child(3)"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at BH.ATF.Sitecore.Web.Common.WebExtensions.Helper.ClickingWithJavaScript(IWebDriver _driver, By locator) in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.Common\WebExtensions\Helper.cs:line 68
+   at BH.ATF.Sitecore.Web.BannerHealth.Pages.PageBase.CloseFeedbackWindow() in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.BannerHealth\Pages\Base\PageBase.cs:line 405
+2018-12-10 13:14:43,828 [ERROR] - Error finding element: By.CssSelector: #site > div.site-content > section.home-section.full-width-section.content-over-image.full-width-image.content-over-image-black
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#site > div.site-content > section.home-section.full-width-section.content-over-image.full-width-image.content-over-image-black"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at BH.ATF.Sitecore.Web.Common.WebExtensions.GenericValidations.VerifyElementDisplayed(IWebDriver _driver, By locator, Boolean excludeExceptionLog) in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.Common\WebExtensions\GenericValidations.cs:line 35
+2018-12-10 13:14:43,828 [ERROR] - Parenting and Maternity section not displayed.
+2018-12-10 13:14:44,122 [ERROR] -   Test Case: 34076 - Driver: chrome 
+  Error displaying elements from 'Parenting And Maternity' section: title, subtitle and lear more button. See log for details.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:14:44,122 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:14:48,178 [INFO] - [START] ==== Test Case: 34077 - Driver: chrome ====
+2018-12-10 13:14:57,225 [INFO] - Feedback window not displayed: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"body > #feedback > img:nth-child(3)"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at BH.ATF.Sitecore.Web.Common.WebExtensions.Helper.ClickingWithJavaScript(IWebDriver _driver, By locator) in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.Common\WebExtensions\Helper.cs:line 68
+   at BH.ATF.Sitecore.Web.BannerHealth.Pages.PageBase.CloseFeedbackWindow() in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.BannerHealth\Pages\Base\PageBase.cs:line 405
+2018-12-10 13:15:02,241 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section:nth-child(9) > div > div.sc-columns.two-thirds-and-third.clearfix > div:nth-child(2) > div
+2018-12-10 13:15:07,285 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section:nth-child(9) > div > div.sc-columns.two-thirds-and-third.clearfix > div:nth-child(4) > div
+2018-12-10 13:15:12,343 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section:nth-child(9) > div > div.sc-columns.third-and-two-thirds.clearfix > div:nth-child(2) > div
+2018-12-10 13:15:17,399 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section:nth-child(9) > div > div.sc-columns.third-and-two-thirds.clearfix > div:nth-child(4) > div
+2018-12-10 13:15:22,454 [ERROR] - Error Waiting for Element To Be Clickable : By.CssSelector: #site > div.site-content > section:nth-child(9) > div > div.sc-columns.two-thirds-and-third.clearfix > div:nth-child(2) > div
+2018-12-10 13:15:22,784 [ERROR] - Object reference not set to an instance of an object.
+2018-12-10 13:15:22,784 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:15:27,192 [INFO] - [START] ==== Test Case: 34072 - Driver: chrome ====
+2018-12-10 13:15:36,276 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section.home-section.penta-box.category-posts.full-width-section.bg-ff6a13.text-ffffff.links-ffffff > div > div.grids.entries > div.grid-3.column-secondary.column-left > article:nth-child(1)
+2018-12-10 13:15:41,508 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section.home-section.penta-box.category-posts.full-width-section.bg-ff6a13.text-ffffff.links-ffffff > div > div.grids.entries > div.grid-3.column-secondary.column-left > article:nth-child(2)
+2018-12-10 13:15:46,668 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section.home-section.penta-box.category-posts.full-width-section.bg-ff6a13.text-ffffff.links-ffffff > div > div.grids.entries > div.grid-6.column-middle > article
+2018-12-10 13:15:51,802 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section.home-section.penta-box.category-posts.full-width-section.bg-ff6a13.text-ffffff.links-ffffff > div > div.grids.entries > div.grid-3.column-secondary.column-right > article:nth-child(1)
+2018-12-10 13:15:56,968 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section.home-section.penta-box.category-posts.full-width-section.bg-ff6a13.text-ffffff.links-ffffff > div > div.grids.entries > div.grid-3.column-secondary.column-right > article:nth-child(2)
+2018-12-10 13:15:57,313 [ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"#site > div.site-content > section.home-section.penta-box.category-posts.full-width-section.bg-ff6a13.text-ffffff.links-ffffff > div > div.grids.entries > div.grid-3.column-secondary.column-left > article:nth-child(1)"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 13:15:57,313 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:16:02,454 [INFO] - [START] ==== Test Case: 34071 - Driver: chrome ====
+2018-12-10 13:16:11,898 [ERROR] - Error displaying articles in the page, expecting 12 articles. actual: 0
+2018-12-10 13:16:12,361 [ERROR] -   Test Case: 34071 - Driver: chrome 
+  The number of elements do not match with the expected. See log for details.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:16:12,361 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:16:16,678 [INFO] - [START] ==== Test Case: 34064 - Driver: chrome ====
+2018-12-10 13:16:21,954 [ERROR] - Error finding element: By.CssSelector: section.full-width-section > div.global-sliders
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"section.full-width-section > div.global-sliders"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at BH.ATF.Sitecore.Web.Common.WebExtensions.GenericValidations.VerifyElementDisplayed(IWebDriver _driver, By locator, Boolean excludeExceptionLog) in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.Common\WebExtensions\GenericValidations.cs:line 35
+2018-12-10 13:16:22,327 [ERROR] -   Test Case: 34064 - Driver: chrome 
+  Expected elements were not found In Carrousel. See log for details.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:16:22,327 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:16:26,343 [INFO] - [START] ==== Test Case: 34078 - Driver: chrome ====
+2018-12-10 13:16:34,718 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section.home-section.penta-box.category-posts.full-width-section.bg-00205b.text-ffffff.links-ffffff > div > div.grids.entries > div.grid-3.column-secondary.column-left > article:nth-child(1)
+2018-12-10 13:16:39,877 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section.home-section.penta-box.category-posts.full-width-section.bg-00205b.text-ffffff.links-ffffff > div > div.grids.entries > div.grid-3.column-secondary.column-left > article:nth-child(2)
+2018-12-10 13:16:45,012 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section.home-section.penta-box.category-posts.full-width-section.bg-00205b.text-ffffff.links-ffffff > div > div.grids.entries > div.grid-6.column-middle > article
+2018-12-10 13:16:50,136 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section.home-section.penta-box.category-posts.full-width-section.bg-00205b.text-ffffff.links-ffffff > div > div.grids.entries > div.grid-3.column-secondary.column-right > article:nth-child(1)
+2018-12-10 13:16:55,260 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section.home-section.penta-box.category-posts.full-width-section.bg-00205b.text-ffffff.links-ffffff > div > div.grids.entries > div.grid-3.column-secondary.column-right > article:nth-child(2)
+2018-12-10 13:17:00,389 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section.home-section.penta-box.category-posts.full-width-section.bg-00205b.text-ffffff.links-ffffff > div > div.grids.entries > div.grid-3.column-secondary.column-left > article:nth-child(1) > div > div.entry-details > header > h2 > a
+2018-12-10 13:17:05,521 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #site > div.site-content > section.home-section.penta-box.category-posts.full-width-section.bg-00205b.text-ffffff.links-ffffff > div > div.grids.entries > div.grid-3.column-secondary.column-left > article:nth-child(1) > div > div.entry-details > header > h2 > a
+2018-12-10 13:17:05,908 [ERROR] - Object reference not set to an instance of an object.
+2018-12-10 13:17:05,909 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:17:09,914 [INFO] - [START] ==== Test Case: 34053 - Driver: chrome ====
+2018-12-10 13:17:27,683 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #content > div > div > div.grid-8.column-1 > nav > div > a.next.page-numbers
+2018-12-10 13:17:28,160 [ERROR] - Object reference not set to an instance of an object.
+2018-12-10 13:17:28,160 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:17:32,440 [INFO] - [START] ==== Test Case: 34049 - Driver: chrome ====
+2018-12-10 13:17:40,608 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:17:45,347 [INFO] - [START] ==== Test Case: 34047 - Driver: chrome ====
+2018-12-10 13:17:49,134 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:17:53,291 [INFO] - [START] ==== Test Case: 34050 - Driver: chrome ====
+2018-12-10 13:18:00,875 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:18:04,977 [INFO] - [START] ==== Test Case: 34052 - Driver: chrome ====
+2018-12-10 13:18:10,388 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:18:14,554 [INFO] - [START] ==== Test Case: 34051 - Driver: chrome ====
+2018-12-10 13:18:32,007 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:18:36,014 [INFO] - [START] ==== Test Case: 34371 - Driver: chrome ====
+2018-12-10 13:18:39,935 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:18:44,001 [INFO] - [START] ==== Test Case: 34063 - Driver: chrome ====
+2018-12-10 13:18:59,396 [ERROR] - Error waiting for Url contains: https://www.bannerhealth.com/healthcareblog/articles/categories/healthy-women | actual: https://hccd-qa.bannerhealth.com/healthcareblog/articles/categories/healthy-women
+2018-12-10 13:18:59,698 [ERROR] -   Test Case: 34063 - Driver: chrome 
+Error loading HealthyWomen page.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:18:59,698 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:19:03,865 [INFO] - [START] ==== Test Case: 34062 - Driver: chrome ====
+2018-12-10 13:19:18,254 [ERROR] - Error waiting for Url contains: https://www.bannerhealth.com/healthcareblog/articles/categories/healthy-women | actual: https://hccd-qa.bannerhealth.com/healthcareblog/articles/categories/healthy-women
+2018-12-10 13:19:18,559 [ERROR] -   Test Case: 34062 - Driver: chrome 
+Error loading HealthyWomen page.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:19:18,559 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:19:22,552 [INFO] - [START] ==== Test Case: 34057 - Driver: chrome ====
+2018-12-10 13:19:27,772 [ERROR] -   Expected: True
+  But was:  False
+
+2018-12-10 13:19:27,772 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:19:31,969 [INFO] - [START] ==== Test Case:  - Driver: chrome ====
+2018-12-10 13:19:42,070 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:19:46,107 [INFO] - [START] ==== Test Case: 33883 - Driver: chrome ====
+2018-12-10 13:19:53,070 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:19:57,164 [INFO] - [START] ==== Test Case: 33751 - Driver: chrome ====
+2018-12-10 13:20:15,622 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:20:19,691 [INFO] - [START] ==== Test Case: 33750 - Driver: chrome ====
+2018-12-10 13:20:26,818 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:20:31,006 [INFO] - [START] ==== Test Case: 33882 - Driver: chrome ====
+2018-12-10 13:24:06,153 [INFO] - [START] ==== Test Case: 33737 - Driver: chrome ====
+2018-12-10 13:24:13,987 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:24:18,131 [INFO] - [START] ==== Test Case: 33744 - Driver: chrome ====
+2018-12-10 13:24:24,966 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:24:29,072 [INFO] - [START] ==== Test Case: 33749 - Driver: chrome ====
+2018-12-10 13:24:38,404 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:24:42,477 [INFO] - [START] ==== Test Case: 33737 - Driver: chrome ====
+2018-12-10 13:24:48,557 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:24:52,650 [INFO] - [START] ==== Test Case: 33882 - Driver: chrome ====
+2018-12-10 13:24:58,869 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:25:02,913 [INFO] - [START] ==== Test Case: 33746 - Driver: chrome ====
+2018-12-10 13:25:09,400 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:25:13,417 [INFO] - [START] ==== Test Case: 33737 - Driver: chrome ====
+2018-12-10 13:25:20,428 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:25:24,486 [INFO] - [START] ==== Test Case: 33744 - Driver: chrome ====
+2018-12-10 13:29:03,450 [INFO] - [START] ==== Test Case: 33736 - Driver: chrome ====
+2018-12-10 13:29:10,137 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:29:14,611 [INFO] - [START] ==== Test Case:  - Driver: chrome ====
+2018-12-10 13:29:20,548 [ERROR] - Object reference not set to an instance of an object.
+2018-12-10 13:29:20,548 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:29:24,760 [INFO] - [START] ==== Test Case:  - Driver: chrome ====
+2018-12-10 13:29:34,550 [ERROR] - Error Waiting for Element Exists : By.XPath: //a[contains(text(),'All Categories')]
+2018-12-10 13:29:39,847 [ERROR] - Error Waiting for Element Exists : By.CssSelector: #main_0_rightpanel_0_rptCategories_hlCategory_0
+2018-12-10 13:29:44,974 [ERROR] - Error Waiting for Element Exists : By.CssSelector: #main_0_rightpanel_0_rptCategories_hlCategory_1
+2018-12-10 13:29:50,101 [ERROR] - Error Waiting for Element Exists : By.CssSelector: #main_0_rightpanel_0_rptCategories_hlCategory_2
+2018-12-10 13:29:55,224 [ERROR] - Error Waiting for Element Exists : By.CssSelector: #main_0_rightpanel_0_rptCategories_hlCategory_3
+2018-12-10 13:30:00,353 [ERROR] - Error Waiting for Element Exists : By.CssSelector: #main_0_rightpanel_0_rptCategories_hlCategory_4
+2018-12-10 13:30:05,482 [ERROR] - Error Waiting for Element Exists : By.CssSelector: #main_0_rightpanel_0_rptCategories_hlCategory_5
+2018-12-10 13:30:10,617 [ERROR] - Error Waiting for Element Exists : By.CssSelector: #main_0_rightpanel_0_rptCategories_hlCategory_6
+2018-12-10 13:30:15,736 [ERROR] - Error Waiting for Element Exists : By.CssSelector: #main_0_rightpanel_0_rptCategories_hlCategory_7
+2018-12-10 13:30:20,867 [ERROR] - Error Waiting for Element Exists : By.CssSelector: #main_0_rightpanel_0_rptCategories_hlCategory_8
+2018-12-10 13:30:25,994 [ERROR] - Error Waiting for Element Exists : By.CssSelector: #main_0_rightpanel_0_rptCategories_hlCategory_9
+2018-12-10 13:30:31,115 [ERROR] - Error Waiting for Element Exists : By.CssSelector: #main_0_rightpanel_0_rptCategories_hlCategory_10
+2018-12-10 13:30:36,248 [ERROR] - Error Waiting for Element Exists : By.CssSelector: #main_0_rightpanel_0_rptCategories_hlCategory_11
+2018-12-10 13:30:36,248 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:30:40,465 [INFO] - [START] ==== Test Case:  - Driver: chrome ====
+2018-12-10 13:30:50,606 [ERROR] - Error Waiting for Element To Be Clickable : By.XPath: //a[contains(text(),'All Categories')]
+2018-12-10 13:30:50,915 [ERROR] - Object reference not set to an instance of an object.
+2018-12-10 13:30:50,915 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:30:55,152 [INFO] - [START] ==== Test Case: 34028 - Driver: chrome ====
+2018-12-10 13:31:11,996 [ERROR] - Error waiting for Element To Be Invisible: By.CssSelector: #at_hover
+2018-12-10 13:31:21,528 [INFO] - Feedback window not displayed: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"body > #feedback > img:nth-child(3)"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at BH.ATF.Sitecore.Web.Common.WebExtensions.Helper.ClickingWithJavaScript(IWebDriver _driver, By locator) in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.Common\WebExtensions\Helper.cs:line 68
+   at BH.ATF.Sitecore.Web.BannerHealth.Pages.PageBase.CloseFeedbackWindow() in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.BannerHealth\Pages\Base\PageBase.cs:line 405
+2018-12-10 13:31:26,897 [ERROR] - Error waiting for Element To Be Invisible: By.CssSelector: #at_hover
+2018-12-10 13:31:32,678 [ERROR] - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Clear')]"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 13:31:32,678 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:31:36,748 [INFO] - [START] ==== Test Case: 33881 - Driver: chrome ====
+2018-12-10 13:31:50,002 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: input.cta-button.cta-button-blue.location-submit
+2018-12-10 13:32:30,756 [ERROR] - Error waiting for Url contains: /services/heart | actual: https://hccd-qa.bannerhealth.com/services/insurance
+2018-12-10 13:32:31,349 [ERROR] -   Test Case: 33881 - Driver: chrome 
+  Failed - Could not navigate to /services/heart Page
+  Expected: True
+  But was:  False
+
+2018-12-10 13:32:31,349 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:32:35,713 [INFO] - [START] ==== Test Case: 33881 - Driver: chrome ====
+2018-12-10 13:32:47,812 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: input.cta-button.cta-button-blue.location-submit
+2018-12-10 13:33:27,507 [ERROR] - Error waiting for Url contains: /services/heart | actual: https://hccd-qa.bannerhealth.com/services/insurance
+2018-12-10 13:33:28,069 [ERROR] -   Test Case: 33881 - Driver: chrome 
+  Failed - Could not navigate to /services/heart Page
+  Expected: True
+  But was:  False
+
+2018-12-10 13:33:28,069 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:33:32,091 [INFO] - [START] ==== Test Case:  - Driver: chrome ====
+2018-12-10 13:33:39,695 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:33:43,879 [INFO] - [START] ==== Test Case: 34038 - Driver: chrome ====
+2018-12-10 13:33:51,368 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:33:55,671 [INFO] - [START] ==== Test Case:  - Driver: chrome ====
+2018-12-10 13:34:11,184 [ERROR] - Error waiting for Url contains: https://www.bannerhealth.com/locations | actual: https://hccd-qa.bannerhealth.com/locations
+2018-12-10 13:34:11,467 [ERROR] -   Test Case:  - Driver: chrome 
+ FooterSection_linkToLocationsPage_works.
+  Expected string length 9 but was 11. Strings differ at index 0.
+  Expected: "Locations"
+  But was:  "Ubicaciones"
+  -----------^
+
+2018-12-10 13:34:11,468 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:34:15,409 [INFO] - [START] ==== Test Case:  - Driver: chrome ====
+2018-12-10 13:34:31,231 [ERROR] - Error waiting for Url contains: https://www.bannerhealth.com/services | actual: https://hccd-qa.bannerhealth.com/services
+2018-12-10 13:34:31,501 [ERROR] -   Test Case:  - Driver: chrome 
+ FooterSection_linkToServicesPage_works.
+  Expected string length 8 but was 9. Strings differ at index 6.
+  Expected: "Services"
+  But was:  "Servicios"
+  -----------------^
+
+2018-12-10 13:34:31,501 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:34:35,491 [INFO] - [START] ==== Test Case: 34040 - Driver: chrome ====
+2018-12-10 13:34:49,701 [ERROR] - Error waiting for Url Pattern contains: (.*/){1,}{.*} | url: https://hccd-qa.bannerhealth.com/employees
+2018-12-10 13:34:49,701 [ERROR] - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BH.ATF.Sitecore.Web.Common.WebExtensions.GenericWaits.WaitHelper[TResult](IWebDriver _driver, Func`2 condition, String message, Boolean addExceptionMessage) in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.Common\WebExtensions\GenericWaits.cs:line 166
+2018-12-10 13:34:55,635 [ERROR] - Error waiting for Element To Be Invisible: By.CssSelector: #at_hover > a
+2018-12-10 13:34:55,649 [ERROR] - Error: the list 'By.CssSelector: ul#ul_inline_navigation > li' does not contains the expected number of elements.
+2018-12-10 13:34:56,204 [ERROR] -   Test Case: 34040 - Driver: chrome 
+  Failed - Showing Patients And Visitors Menu List
+  Expected: True
+  But was:  False
+
+2018-12-10 13:34:56,204 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:35:00,096 [INFO] - [START] ==== Test Case: 33885 - Driver: chrome ====
+2018-12-10 13:35:16,983 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: input.cta-button.cta-button-blue.location-submit
+2018-12-10 13:35:28,485 [ERROR] - Error waiting for Url contains: bannerhealth.com/getcarenow/emergency-room-search-results | actual: https://hccd-qa.bannerhealth.com/es-es#
+2018-12-10 13:35:29,018 [ERROR] -   Test Case: 33885 - Driver: chrome 
+  Expected Url: 'bannerhealth.com/getcarenow/emergency-room-search-results'.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:35:29,018 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:35:32,950 [INFO] - [START] ==== Test Case: 33885 - Driver: chrome ====
+2018-12-10 13:35:49,483 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: input.cta-button.cta-button-blue.location-submit
+2018-12-10 13:36:02,519 [ERROR] - Error waiting for Url contains: bannerhealth.com/getcarenow/emergency-room-search-results | actual: https://hccd-qa.bannerhealth.com/es-es#
+2018-12-10 13:36:03,006 [ERROR] -   Test Case: 33885 - Driver: chrome 
+  Expected Url: 'bannerhealth.com/getcarenow/emergency-room-search-results'.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:36:03,006 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:36:06,922 [INFO] - [START] ==== Test Case: 33890 - Driver: chrome ====
+2018-12-10 13:36:22,146 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: input.cta-button.cta-button-blue.location-submit
+2018-12-10 13:36:32,906 [ERROR] - Error waiting for Url contains: bannerhealth.com/getcarenow/emergency-room-search-results | actual: https://hccd-qa.bannerhealth.com/es-es#
+2018-12-10 13:36:33,373 [ERROR] -   Test Case: 33890 - Driver: chrome 
+  Expected Url: 'bannerhealth.com/getcarenow/emergency-room-search-results'.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:36:33,373 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:36:37,303 [INFO] - [START] ==== Test Case: 33880 - Driver: chrome ====
+2018-12-10 13:36:53,201 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: input.cta-button.cta-button-blue.location-submit
+2018-12-10 13:37:03,851 [ERROR] - Error waiting for Url contains: bannerhealth.com/getcarenow/emergency-room-search-results | actual: https://hccd-qa.bannerhealth.com/es-es#
+2018-12-10 13:37:04,380 [ERROR] -   Test Case: 33880 - Driver: chrome 
+  Expected Url: 'bannerhealth.com/getcarenow/emergency-room-search-results'.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:37:04,380 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:37:08,317 [INFO] - [START] ==== Test Case: 33880 - Driver: chrome ====
+2018-12-10 13:37:24,851 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: input.cta-button.cta-button-blue.location-submit
+2018-12-10 13:37:36,564 [ERROR] - Error waiting for Url contains: bannerhealth.com/getcarenow/emergency-room-search-results | actual: https://hccd-qa.bannerhealth.com/es-es#
+2018-12-10 13:37:37,033 [ERROR] -   Test Case: 33880 - Driver: chrome 
+  Expected Url: 'bannerhealth.com/getcarenow/emergency-room-search-results'.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:37:37,033 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:37:40,939 [INFO] - [START] ==== Test Case: 33889 - Driver: chrome ====
+2018-12-10 13:38:04,645 [ERROR] - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+2018-12-10 13:38:04,645 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:38:08,495 [INFO] - [START] ==== Test Case: 34011 - Driver: chrome ====
+2018-12-10 13:38:20,089 [ERROR] - Error waiting for Url contains: urgentcare. | actual: https://hccd-qa.bannerhealth.com/es-es#
+2018-12-10 13:38:20,568 [ERROR] -   Test Case: 34011 - Driver: chrome 
+  External site not displayed. urgentcare.bannerhealth.com
+  Expected: True
+  But was:  False
+
+2018-12-10 13:38:20,568 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:38:24,466 [INFO] - [START] ==== Test Case: 34019 - Driver: chrome ====
+2018-12-10 13:38:37,297 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: body > div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > h2.section-title--quinary
+2018-12-10 13:38:42,347 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: body > div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > a
+2018-12-10 13:38:51,162 [ERROR] - Error waiting for Url contains: bannerhealth.com/es-es/services/urgent-care/conditions-and-treatments | actual: https://hccd-qa.bannerhealth.com/services/urgent-care/conditions-and-treatments
+2018-12-10 13:38:51,425 [ERROR] -   Test Case: 34019 - Driver: chrome 
+  Error loading Conditions-and-Treatments page.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:38:51,425 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:38:55,312 [INFO] - [START] ==== Test Case: 34023 - Driver: chrome ====
+2018-12-10 13:39:07,760 [ERROR] - Error waiting for Url contains: urgentcare. | actual: https://hccd-qa.bannerhealth.com/es-es#
+2018-12-10 13:39:08,258 [ERROR] -   Test Case: 34023 - Driver: chrome 
+External site not displayed. urgentcare.bannerhealth.com
+  Expected: True
+  But was:  False
+
+2018-12-10 13:39:08,258 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:39:12,150 [INFO] - [START] ==== Test Case: 34012 - Driver: chrome ====
+2018-12-10 13:39:24,291 [ERROR] - Error waiting for Url contains: urgentcare. | actual: https://hccd-qa.bannerhealth.com/es-es#
+2018-12-10 13:39:24,790 [ERROR] -   Test Case: 34012 - Driver: chrome 
+External site not displayed. urgentcare.bannerhealth.com
+  Expected: True
+  But was:  False
+
+2018-12-10 13:39:24,790 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:39:28,973 [INFO] - [START] ==== Test Case: 34016 - Driver: chrome ====
+2018-12-10 13:39:41,005 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: body > div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > h2.section-title--quinary
+2018-12-10 13:39:46,057 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: body > div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > a
+2018-12-10 13:39:59,729 [ERROR] - Error waiting for Url contains: bannerhealth.com/es-es/services/urgent-care/faqs | actual: https://www.bannerhealth.com/services/urgent-care/faqs
+2018-12-10 13:40:00,006 [ERROR] -   Test Case: 34016 - Driver: chrome 
+Error loading FAQ page.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:40:00,006 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:40:03,941 [INFO] - [START] ==== Test Case: 34017 - Driver: chrome ====
+2018-12-10 13:40:18,223 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: body > div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > h2.section-title--quinary
+2018-12-10 13:40:23,229 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: body > div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > a
+2018-12-10 13:40:34,808 [ERROR] - Error waiting for Url contains: bannerhealth.com/es-es/services/urgent-care/screening-and-diagnostics | actual: https://hccd-qa.bannerhealth.com/services/urgent-care/screening-and-diagnostics
+2018-12-10 13:40:35,085 [ERROR] -   Test Case: 34017 - Driver: chrome 
+Error loading Screening-and-Diagnostics page.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:40:35,085 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:40:38,994 [INFO] - [START] ==== Test Case: 34043 - Driver: chrome ====
+2018-12-10 13:41:02,233 [ERROR] - Error waiting for Element To Be Invisible: By.CssSelector: #at_hover > a
+2018-12-10 13:41:08,524 [ERROR] - Error Waiting for Element To Be Selected : By.CssSelector: li[class*='at3winsvc_']
+2018-12-10 13:41:08,594 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:41:12,443 [INFO] - [START] ==== Test Case: 33974 - Driver: chrome ====
+2018-12-10 13:44:50,766 [INFO] - [START] ==== Test Case: BH_NID_C_SubPages_StayingWellLink_Navigation - Driver: chrome ====
+2018-12-10 13:44:59,731 [ERROR] - The expected header content was Injury Prevention, found 
+            Prevención de lesiones
+        
+2018-12-10 13:44:59,731 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:45:03,779 [INFO] - [START] ==== Test Case: BH_NID_C_SecondaryNavigation_StayingWellLink_Present - Driver: chrome ====
+2018-12-10 13:45:13,891 [ERROR] - Error Waiting for Element Exists : By.CssSelector: [href='/staying-well/health-and-wellness']
+2018-12-10 13:45:19,001 [ERROR] - Error Waiting for Element Exists : By.CssSelector: [href='https://www.bannerhealth.com/healthcareblog']
+2018-12-10 13:45:21,078 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:45:24,923 [INFO] - [START] ==== Test Case: 33913 - Driver: chrome ====
+2018-12-10 13:45:31,584 [ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"section.urgent-care-search"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 13:45:31,584 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:45:35,609 [INFO] - [START] ==== Test Case: 33918 - Driver: chrome ====
+2018-12-10 13:45:47,743 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:45:51,616 [INFO] - [START] ==== Test Case: 33916 - Driver: chrome ====
+2018-12-10 13:45:59,837 [ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"div:nth-child(4) > section"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 13:45:59,838 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:46:03,803 [INFO] - [START] ==== Test Case: 33912 - Driver: chrome ====
+2018-12-10 13:46:10,868 [ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"video.hero-section-player.js-animation-player.video-max"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 13:46:10,868 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:46:14,763 [INFO] - [START] ==== Test Case: 33917 - Driver: chrome ====
+2018-12-10 13:46:27,260 [ERROR] - Error Waiting for Element Exists : By.CssSelector: section.page-section.events-section.page-section-grey.js-animation-trigger
+2018-12-10 13:46:32,928 [ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"section.page-section.events-section.page-section-grey.js-animation-trigger"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 13:46:32,928 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:46:36,759 [INFO] - [START] ==== Test Case: 33915 - Driver: chrome ====
+2018-12-10 13:46:44,525 [ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"section.page-section.has-columns.columns-reverse.js-animation-trigger.is-animated.account-section > div > div.content-container > h2:nth-child(3)"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 13:46:44,525 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:46:48,456 [INFO] - [START] ==== Test Case: 34041 - Driver: chrome ====
+2018-12-10 13:47:03,152 [ERROR] - Error waiting for Url contains: news | actual: https://hccd-qa.bannerhealth.com/about/quality
+2018-12-10 13:47:03,644 [ERROR] -   Test Case: 34041 - Driver: chrome 
+Failed - Can not navigate to News Page
+  Expected: True
+  But was:  False
+
+2018-12-10 13:47:03,644 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:47:07,525 [INFO] - [START] ==== Test Case: 33980 - Driver: chrome ====
+2018-12-10 13:47:19,934 [ERROR] - Error waiting for Url contains: patients/patient-resources/advance-directives | actual: https://hccd-qa.bannerhealth.com/patients/advance-directives
+2018-12-10 13:47:20,226 [ERROR] -   Test Case: 33980 - Driver: chrome 
+  Failed - Couldn't navigate to Advance Directives Page
+  Expected: True
+  But was:  False
+
+2018-12-10 13:47:20,226 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:47:24,172 [INFO] - [START] ==== Test Case: 33976 - Driver: chrome ====
+2018-12-10 13:47:33,821 [ERROR] - Error waiting for Element To Be Invisible: By.CssSelector: #at_hover > a
+2018-12-10 13:47:33,837 [ERROR] - Error: the list 'System.Collections.ObjectModel.ReadOnlyCollection`1[OpenQA.Selenium.IWebElement]' does not contains the expected number of elements.
+2018-12-10 13:47:34,411 [ERROR] -   Test Case: 33976 - Driver: chrome 
+  Failed - Showing Patients And Visitors Menu List, Probably the number of elements in the list has changed
+  Expected: True
+  But was:  False
+
+2018-12-10 13:47:34,411 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:47:38,271 [INFO] - [START] ==== Test Case: 34111 - Driver: chrome ====
+2018-12-10 13:47:51,535 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: input.cta-button.cta-button-blue.location-submit
+2018-12-10 13:48:04,198 [ERROR] -   Test Case: 34111 - Driver: chrome 
+ Failed trying to Assert Click on Clear Button.
+  Expected string length 21 but was 29. Strings differ at index 6.
+  Expected: "shape set my location"
+  But was:  "shape establecer mi ubicación"
+  -----------------^
+
+2018-12-10 13:48:04,198 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:48:08,086 [INFO] - [START] ==== Test Case: 33728 - Driver: chrome ====
+2018-12-10 13:48:14,564 [ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"a[title='Careers']"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 13:48:14,564 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:48:18,500 [INFO] - [START] ==== Test Case: 33996 - Driver: chrome ====
+2018-12-10 13:48:39,391 [ERROR] - Error waiting for Url contains: bannerhealth.com/es-es/search-results?keyword=Skin | actual: https://hccd-qa.bannerhealth.com/search-results?keyword=Skin
+2018-12-10 13:48:40,698 [ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"h4 > a"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 13:48:40,698 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:48:44,554 [INFO] - [START] ==== Test Case: 34113 - Driver: chrome ====
+2018-12-10 13:48:57,801 [ERROR] - Error waiting for Element Content Text. element: Element (id = 0.44661366340269115-3) | text: ,
+2018-12-10 13:49:04,933 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:49:08,800 [INFO] - [START] ==== Test Case: 33730 - Driver: chrome ====
+2018-12-10 13:49:21,695 [ERROR] - Error waiting for Element Content Text. element: Element (id = 0.32728415593119187-3) | text: ,
+2018-12-10 13:49:27,380 [ERROR] - unknown error: Element <a href="#" data-action="global-modal-open" data-target="js-component-location">...</a> is not clickable at point (123, 18). Other element would receive the click: <div class="global-modal-container component-location section-inverse js-component-location" data-js="locationHandler" aria-hidden="false">...</div>
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 13:49:27,380 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:49:31,313 [INFO] - [START] ==== Test Case: LocResultsElements - Driver: chrome ====
+2018-12-10 13:49:50,588 [ERROR] - Error waiting for Url contains: bannerhealth.com/es-es/locations/search-results?locname= | actual: https://hccd-qa.bannerhealth.com/locations/search-results?locname=Banner%20Occupational%20Health
+2018-12-10 13:49:50,862 [ERROR] -   Test Case: LocResultsElements - Driver: chrome 
+Error loading the search Results page. actual: https://hccd-qa.bannerhealth.com/locations/search-results?locname=Banner%20Occupational%20Health
+  Expected: True
+  But was:  False
+
+2018-12-10 13:49:50,862 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:49:54,873 [INFO] - [START] ==== Test Case: 34007 - Driver: chrome ====
+2018-12-10 13:50:09,491 [ERROR] - Error Waiting for Element To Be Clickable : By.CssSelector: ul[id^='sbOptions_'] > li:nth-child(10) > a
+2018-12-10 13:50:09,776 [ERROR] - no such element: Unable to locate element: {"method":"css selector","selector":"ul[id^='sbOptions_'] > li:nth-child(10) > a"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+2018-12-10 13:50:09,776 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:50:13,638 [INFO] - [START] ==== Test Case: 34010 - Driver: chrome ====
+2018-12-10 13:50:25,808 [ERROR] - Error waiting for Url contains: bannerhealth.com/es-es/getcarenow/emergency-room-search-results | actual: https://hccd-qa.bannerhealth.com/es-es#
+2018-12-10 13:50:26,390 [ERROR] -   Test Case: 34010 - Driver: chrome 
+Error loading EmergencyCare page.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:50:26,390 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:50:30,412 [INFO] - [START] ==== Test Case: 33729 - Driver: chrome ====
+2018-12-10 13:50:47,737 [ERROR] - Error Waiting for Element To Be Visible : By.LinkText: Find a Doctor
+2018-12-10 13:50:53,035 [ERROR] - Error Waiting for Element To Be Visible : By.LinkText: Conditions + Services
+2018-12-10 13:50:53,070 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:50:56,948 [INFO] - [START] ==== Test Case: 34008 - Driver: chrome ====
+2018-12-10 13:51:14,183 [ERROR] - Error Waiting for Element To Be Clickable : By.LinkText: Conditions + Services
+2018-12-10 13:51:14,830 [ERROR] - Object reference not set to an instance of an object.
+2018-12-10 13:51:14,830 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:51:18,728 [INFO] - [START] ==== Test Case: 33998 - Driver: chrome ====
+2018-12-10 13:51:34,723 [ERROR] - Error Waiting for Element To Be Clickable : By.LinkText: Find a Doctor
+2018-12-10 13:51:35,367 [ERROR] - Object reference not set to an instance of an object.
+2018-12-10 13:51:35,367 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:51:39,331 [INFO] - [START] ==== Test Case: 35416 - Driver: chrome ====
+2018-12-10 13:51:56,282 [ERROR] - Error Waiting for Element To Be Clickable : By.LinkText: Find a Doctor
+2018-12-10 13:51:56,923 [ERROR] - Object reference not set to an instance of an object.
+2018-12-10 13:51:56,923 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:52:00,781 [INFO] - [START] ==== Test Case: 34003 - Driver: chrome ====
+2018-12-10 13:52:14,938 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:52:18,883 [INFO] - [START] ==== Test Case: 33886 - Driver: chrome ====
+2018-12-10 13:52:30,653 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: input.cta-button.cta-button-blue.location-submit
+2018-12-10 13:53:10,596 [ERROR] - Error Waiting for Element To Be Visible : By.XPath: //div[contains(@class, 'accordion accordion-wrapper')]
+2018-12-10 13:53:10,864 [ERROR] - Object reference not set to an instance of an object.
+2018-12-10 13:53:10,864 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:53:14,872 [INFO] - [START] ==== Test Case: 33886 - Driver: chrome ====
+2018-12-10 13:53:26,645 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: input.cta-button.cta-button-blue.location-submit
+2018-12-10 13:53:47,099 [ERROR] - Error Waiting for Element To Be Visible : By.XPath: //div[contains(@class, 'accordion accordion-wrapper')]
+2018-12-10 13:53:47,364 [ERROR] - Object reference not set to an instance of an object.
+2018-12-10 13:53:47,364 [INFO] - [END]   =============== [FAILED] ===============

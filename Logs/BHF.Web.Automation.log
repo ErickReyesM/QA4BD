@@ -1,0 +1,97 @@
+2018-12-10 13:53:52,116 [INFO] - [START] ==== Test Case: 34516 - Driver: chrome ====
+2018-12-10 13:53:56,316 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:54:00,129 [INFO] - [START] ==== Test Case: 34306 - Driver: chrome ====
+2018-12-10 13:54:07,485 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: footer > div.site-footer > div.container > div:nth-of-type(2) > div:nth-of-type(4) > div.social-media > ul.social-media__list > li:nth-of-type(1) > a
+2018-12-10 13:54:12,594 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: footer > div.site-footer > div.container > div:nth-of-type(2) > div:nth-of-type(4) > div.social-media > ul.social-media__list > li:nth-of-type(2) > a
+2018-12-10 13:54:17,710 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: footer > div.site-footer > div.container > div:nth-of-type(2) > div:nth-of-type(4) > div.social-media > ul.social-media__list > li:nth-of-type(3) > a
+2018-12-10 13:54:22,828 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: footer > div.site-footer > div.container > div:nth-of-type(2) > div:nth-of-type(4) > div.social-media > ul.social-media__list > li:nth-of-type(4) > a
+2018-12-10 13:54:27,935 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: footer > div.site-footer > div.container > div:nth-of-type(2) > div:nth-of-type(4) > div.social-media > ul.social-media__list > li:nth-of-type(5) > a
+2018-12-10 13:54:28,054 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:54:31,868 [INFO] - [START] ==== Test Case: 34332 - Driver: chrome ====
+2018-12-10 13:55:05,518 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:55:09,997 [INFO] - [START] ==== Test Case: 34310 - Driver: chrome ====
+2018-12-10 13:55:16,522 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:55:20,881 [INFO] - [START] ==== Test Case: 34309 - Driver: chrome ====
+2018-12-10 13:55:29,540 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:55:33,517 [INFO] - [START] ==== Test Case: 34308 - Driver: chrome ====
+2018-12-10 13:55:49,263 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:55:53,501 [INFO] - [START] ==== Test Case: 34266 - Driver: chrome ====
+2018-12-10 13:55:56,268 [ERROR] - Failed trying to Assert Verify Carousel button Images links and Get The Details : NUnit.Framework.AssertionException:   The number of items in the carousel does not match
+  Expected: 6
+  But was:  7
+
+   at NUnit.Framework.Assert.ReportFailure(String message) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 394
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 382
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.That.cs:line 247
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.Equality.cs:line 115
+   at BH.ATF.Sitecore.Web.BHFoundations.Tests.HomeTest.<HomePage_CarouselButtons_Works>b__6_0(IWebDriver _driver, String m) in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.BHFoundations\Tests\Home\HomeTest.cs:line 146
+2018-12-10 13:55:56,268 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:56:01,201 [INFO] - [START] ==== Test Case: 34263 - Driver: chrome ====
+2018-12-10 13:56:02,971 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:56:06,867 [INFO] - [START] ==== Test Case: 34268 - Driver: chrome ====
+2018-12-10 13:56:14,130 [ERROR] - Error Waiting for Element Exists : By.LinkText: Get the details
+2018-12-10 13:56:14,557 [ERROR] - Object reference not set to an instance of an object.
+2018-12-10 13:56:14,557 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:56:18,360 [INFO] - [START] ==== Test Case: 34276 - Driver: chrome ====
+2018-12-10 13:56:28,442 [ERROR] - Error waiting for Url contains: events/ | actual: https://secure2.convio.net/banner/site/Donation2;jsessionid=00000000.app224a?1602.donation=form1&amp;df_id=1602&amp;mfc_pref=T%27%20target=%27_blank&NONCE_TOKEN=CA431A1890144060599D1335FFF69BFD
+2018-12-10 13:56:28,465 [ERROR] - Error finding element: By.CssSelector: #related-links-title
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#related-links-title"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at BH.ATF.Sitecore.Web.Common.WebExtensions.GenericValidations.VerifyElementDisplayed(IWebDriver _driver, By locator, Boolean excludeExceptionLog) in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.Common\WebExtensions\GenericValidations.cs:line 35
+2018-12-10 13:56:28,474 [ERROR] - Failed trying to Assert Verify Events Exists in Column and Get The Details : NUnit.Framework.AssertionException:   Expected and actual are both <System.Object[8]>
+  Values differ at index [6]
+  Expected: True
+  But was:  False
+
+   at NUnit.Framework.Assert.ReportFailure(String message) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 394
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 382
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.That.cs:line 247
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.Equality.cs:line 128
+   at BH.ATF.Sitecore.Web.BHFoundations.Tests.HomeTest.<HomePage_ColumnsEvents_Exists>b__2_0(IWebDriver _driver, String m) in C:\Users\ErickReyes\Desktop\BannerHealthAutomation\temp_intersys_bh\BH.ATF.Sitecore.Web.BHFoundations\Tests\Home\HomeTest.cs:line 30
+2018-12-10 13:56:28,474 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:56:32,380 [INFO] - [START] ==== Test Case: 34269 - Driver: chrome ====
+2018-12-10 13:56:37,288 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:56:41,112 [INFO] - [START] ==== Test Case: 34265 - Driver: chrome ====
+2018-12-10 13:56:43,785 [ERROR] - Error finding element: By.CssSelector: #bh-custom-carousel > div > div:nth-child(3) > a > img
+2018-12-10 13:56:49,519 [ERROR] - Error waiting for Url contains: /making-a-difference | actual: https://www.bannerhealthfoundation.org/en
+2018-12-10 13:56:54,625 [ERROR] - Error Waiting for Element To Be Clickable : By.CssSelector: #bh-custom-carousel > ol > li:nth-child(2)
+2018-12-10 13:56:54,946 [ERROR] - Object reference not set to an instance of an object.
+2018-12-10 13:56:54,946 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:56:58,783 [INFO] - [START] ==== Test Case: 34515 - Driver: chrome ====
+2018-12-10 13:57:00,524 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:57:04,383 [INFO] - [START] ==== Test Case: 34254 - Driver: chrome ====
+2018-12-10 13:57:06,289 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:57:10,162 [INFO] - [START] ==== Test Case: 34313 - Driver: chrome ====
+2018-12-10 13:57:18,450 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #main-content > div > div > div.col-sm-3.hidden-xs.hidden-sm > div:nth-of-type(1) > ul
+2018-12-10 13:57:23,571 [ERROR] - Error Waiting for Element To Be Visible : By.CssSelector: #main-content > div > div > div.col-sm-3.hidden-xs.hidden-sm > div:nth-of-type(1) > ul > li > a
+2018-12-10 13:57:28,572 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:57:32,609 [INFO] - [START] ==== Test Case: 34320 - Driver: chrome ====
+2018-12-10 13:57:35,157 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:57:39,566 [INFO] - [START] ==== Test Case: 34337 - Driver: chrome ====
+2018-12-10 13:57:44,728 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:57:49,191 [INFO] - [START] ==== Test Case: 34311 - Driver: chrome ====
+2018-12-10 13:57:58,556 [ERROR] - Error waiting for Url contains: get-involved/sponsor-an-event | actual: https://www.bannerhealthfoundation.org/get-involved/volunteer-at-a-banner-facility
+2018-12-10 13:57:58,904 [ERROR] -   Test Case: 34311 - Driver: chrome 
+  Failed - Giving Matters Link does not work. See log for details.
+  Expected: True
+  But was:  False
+
+2018-12-10 13:57:58,904 [INFO] - [END]   =============== [FAILED] ===============
+2018-12-10 13:58:02,935 [INFO] - [START] ==== Test Case: 34514 - Driver: chrome ====
+2018-12-10 13:58:07,619 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:58:11,691 [INFO] - [START] ==== Test Case: 34262 - Driver: chrome ====
+2018-12-10 13:58:17,750 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:58:21,772 [INFO] - [START] ==== Test Case: 34312 - Driver: chrome ====
+2018-12-10 13:58:26,119 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:58:30,258 [INFO] - [START] ==== Test Case: 36322 - Driver: chrome ====
+2018-12-10 13:58:35,048 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 13:58:39,782 [INFO] - [START] ==== Test Case: 34517 - Driver: chrome ====
+2018-12-10 13:58:43,405 [INFO] - [END]   =============== [PASSED] ===============

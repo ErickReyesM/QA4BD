@@ -1,0 +1,46 @@
+2018-12-10 14:08:21,162 [INFO] - [START] ==== Test Case: NPA_NID_C_Verify_AboutPageContent - Driver: chrome ====
+2018-12-10 14:08:23,632 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:08:27,551 [INFO] - [START] ==== Test Case: NPA_NID_F_Verify_ContactUsDetails - Driver: chrome ====
+2018-12-10 14:08:29,255 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:08:33,095 [INFO] - [START] ==== Test Case: NPA_NID_F_Verify_CopyrightDetails&Links - Driver: chrome ====
+2018-12-10 14:08:51,324 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:08:55,259 [INFO] - [START] ==== Test Case: NPA_NID_F_Verify_ForProviderLinks - Driver: chrome ====
+2018-12-10 14:09:04,177 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:09:08,077 [INFO] - [START] ==== Test Case: NPA_NID_F_Verify_GetToKnowUsLinks - Driver: chrome ====
+2018-12-10 14:09:11,830 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:09:15,743 [INFO] - [START] ==== Test Case: Validation of Main Paragraphs - Driver: chrome ====
+2018-12-10 14:09:17,812 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:09:17,812 [INFO] - [START] ==== Test Case: Validation of Star Paragraphs - Driver: chrome ====
+2018-12-10 14:09:18,120 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:09:18,120 [INFO] - [START] ==== Test Case: Validation of Cross Paragraphs - Driver: chrome ====
+2018-12-10 14:09:18,450 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:09:18,450 [INFO] - [START] ==== Test Case: Validation of Checked Paragraphs - Driver: chrome ====
+2018-12-10 14:09:18,777 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:09:22,596 [INFO] - [START] ==== Test Case: Carousel Precence and its Indicators Activated - Driver: chrome ====
+2018-12-10 14:09:24,921 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:09:28,810 [INFO] - [START] ==== Test Case: NPA_NID_C_Verify_LeadershipPageContent - Driver: chrome ====
+2018-12-10 14:09:31,006 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:09:34,986 [INFO] - [START] ==== Test Case: NPA_NID_C_Verify_BHNProviderPortalRedirection - Driver: chrome ====
+2018-12-10 14:09:40,221 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:09:44,221 [INFO] - [START] ==== Test Case: Verify the Documents are collapsed - Driver: chrome ====
+2018-12-10 14:09:47,351 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:09:51,280 [INFO] - [START] ==== Test Case: Documents for Forms and Resources Displayed - Driver: chrome ====
+2018-12-10 14:09:54,183 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:09:58,059 [INFO] - [START] ==== Test Case: Back to home page from About page - Driver: chrome ====
+2018-12-10 14:10:00,794 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:10:04,795 [INFO] - [START] ==== Test Case: Redirected to About Page - Driver: chrome ====
+2018-12-10 14:10:07,010 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:10:10,957 [INFO] - [START] ==== Test Case: Redirected to Leadership Page - Driver: chrome ====
+2018-12-10 14:10:13,171 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:10:17,143 [INFO] - [START] ==== Test Case: Display For Providers Menu - Driver: chrome ====
+2018-12-10 14:10:18,973 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:10:22,899 [INFO] - [START] ==== Test Case: NPA Precence of Header elements - Driver: chrome ====
+2018-12-10 14:10:24,748 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:10:28,622 [INFO] - [START] ==== Test Case: NPA_NID_C_VerifyContent_BenefitsOfTheAllianceSection - Driver: chrome ====
+2018-12-10 14:10:30,936 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:10:34,790 [INFO] - [START] ==== Test Case: NPA_NID_C_VerifyContent_JoinTheAllianceFirstSection - Driver: chrome ====
+2018-12-10 14:10:38,344 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:10:42,204 [INFO] - [START] ==== Test Case: NPA_NID_C_VerifyContent_ParticipateInContractsSection - Driver: chrome ====
+2018-12-10 14:10:44,690 [INFO] - [END]   =============== [PASSED] ===============
+2018-12-10 14:10:48,600 [INFO] - [START] ==== Test Case: Redirected to Providers Directory page - Driver: chrome ====
+2018-12-10 14:10:53,758 [INFO] - [END]   =============== [PASSED] ===============
